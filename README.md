@@ -54,3 +54,8 @@ The following code files are provided to explore different aspects of the data:
     - MBO-GOPI.pdf
     - MBO-GOQ.pdf
     - MBO-PI.pdf
+
+## Associated Publications
+
+- Hud Wahab et al., “Machine-Learning-Assisted Fabrication: Bayesian Optimization of Laser-Induced Graphene Patterning Using in-Situ Raman Analysis,” Carbon 167 (2020): 609–19, https://doi.org/10.1016/j.carbon.2020.05.087
+- Lars Kotthoff et al., “AI for Materials Science: Tuning Laser-Induced Graphene Production,” in Data Science Meets Optimisation Workshop at IJCAI 2019, 2019.

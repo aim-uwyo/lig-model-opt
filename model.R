@@ -42,6 +42,6 @@ bmr = benchmark(design)
 p = autoplot(bmr, measure = msr("regr.mae")) +
     theme(axis.text.x = element_text(angle = 55, hjust = 1)) +
     expand_limits(y = 0) +
-    geom_hline(data = data.frame(mean = c(0.394208, 0.550969, 0.3), task_id = bmr$tasks$task_id),
+    geom_hline(data = data.frame(mean = c(0.394208, 0.550969, 0.370176), task_id = bmr$tasks$task_id),
                aes(yintercept = mean))
 ggsave(p, file = "modeling-comparison.pdf", height = 5, width = 8)

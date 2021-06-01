@@ -34,8 +34,8 @@ The following code files are provided to explore different aspects of the data:
     - modeling-comparison.pdf
 - autosklearn.py runs auto-sklearn on the given dataset for an hour to give an
   impression of what can be achieved with automated machine learning approaches.
-  The results are shown in the PDF produced by model.R; the raw output are
-  available in the following files:
+  The results are shown in the PDF produced by model.R (lines in the boxplots);
+  the raw output are available in the following files:
     - GOPI-autosklearn.out
     - GOQ-autosklearn.out
     - PI-autosklearn.out

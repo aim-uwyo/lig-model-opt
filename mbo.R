@@ -59,6 +59,7 @@ mkMBO = function(data, title) {
     p = ggplot(data = opt.path, aes(x = 1:nrow(opt.path), y = target)) +
         geom_line() +
         xlab("Iteration") +
+        labs(title = title) +
         # show initial data as boxplot at iteration 0
         geom_boxplot(data = data.frame(target = getOptPathY(res$opt.path)[1:10]),
                      aes(x = 0, y = target),

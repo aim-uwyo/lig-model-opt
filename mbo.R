@@ -24,8 +24,8 @@ mkMBO = function(data, title) {
 
     # parameter set to optimize over
     ps = makeParamSet(
-      makeIntegerParam("power", lower = 10, upper = 5555),
-      makeIntegerParam("time", lower = 500, upper = 20210),
+      makeIntegerParam("power", lower = 10, upper = 5550),
+      makeIntegerParam("time", lower = 500, upper = 20000),
       makeDiscreteParam("gas", values = c("Argon", "Nitrogen", "Air")),
       makeIntegerParam("pressure", lower = 0, upper = 1000)
     )

@@ -15,6 +15,7 @@ model = autosklearn.regression.AutoSklearnRegressor(
         resampling_strategy = "cv",
         resampling_strategy_arguments = {'folds': 10},
         metric = autosklearn.metrics.mean_absolute_error,
+        seed = 1,
         # run for one hour
         time_left_for_this_task = 3600
     )
